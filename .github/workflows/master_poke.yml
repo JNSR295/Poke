@@ -32,4 +32,4 @@ jobs:
         app-name: 'poke'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_56497a0547224715870d46760f33b229 }}
-        package: ${{env.DOTNET_ROOT}}/myapp 
+        package: ${{env.DOTNET_ROOT}}/poke 
